@@ -1,0 +1,7 @@
+{"type":"system","subtype":"init","session_id":"sess-1","model":"claude-sonnet-4","claude_code_version":"2.1.62","tools":[{"name":"Read"},{"name":"Write"},{"name":"Bash"}]}
+{"type":"assistant","message":{"content":[{"type":"text","text":"Let me help you with that."}]}}
+{"type":"assistant","message":{"content":[{"type":"tool_use","id":"tool_1","name":"Read","input":{"path":"test.go"}}]}}
+{"type":"tool_result","name":"Read","tool_use_id":"tool_1","content":"file contents here","is_error":false}
+{"type":"assistant","message":{"content":[{"type":"thinking","thinking":"Let me analyze this..."}]}}
+{"type":"assistant","message":{"content":[{"type":"text","text":"Here is the result."}]}}
+{"type":"result","usage":{"input_tokens":120,"output_tokens":45},"total_cost_usd":0.0052,"stop_reason":"end_turn"}
