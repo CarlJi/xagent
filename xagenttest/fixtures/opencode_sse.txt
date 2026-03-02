@@ -1,0 +1,8 @@
+event: message
+data: {"type":"step_start","sessionID":"oc_1"}
+
+event: message
+data: {"type":"text_delta","delta":"hello from opencode"}
+
+event: message
+data: {"type":"step_finish","tokens":{"input":7,"output":5},"stop_reason":"end_turn"}
